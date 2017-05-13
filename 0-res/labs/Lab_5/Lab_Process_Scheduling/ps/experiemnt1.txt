@@ -1,0 +1,11 @@
+name myrun 
+comment This run specifies two types of processes 
+algorithm FCFS
+   seed 5000 
+   numprocs 5 
+   firstarrival 0.0 
+   interarrival constant 0.0 
+   duration constant 25 
+   cpuburst constant 15
+   ioburst constant 10 
+   basepriority 1.0 
