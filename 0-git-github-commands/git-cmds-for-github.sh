@@ -56,7 +56,7 @@ git remote -v
 
 # Change your remote's URL from SSH to HTTPS with the git remote set-url command.
 echo
-echo 06. Done...setting remote url.
+echo 06. Done...Updating remote URL.
 git remote set-url origin https://github.com/Sakib-Rahman-Bangladesh/3-operating-system
 
 
@@ -75,7 +75,7 @@ git remote -v
 ############
 
 echo
-echo 08. Pushing local codebase to remote repo.
+echo 08. Pushing local codebase to remote repo...Repo-to-repo collaboration: git push
 echo
 git push origin master
 git push --all -f https://github.com/Sakib-Rahman-Bangladesh/3-operating-system
