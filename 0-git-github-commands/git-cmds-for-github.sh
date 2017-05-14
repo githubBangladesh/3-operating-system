@@ -19,27 +19,27 @@ git commit -m "Updating Project : v3.1--14-05-2017"
 git config --global user.email "sakib.rahman.0000@gmail.com"
 git config --global user.name "Sakib Rahman"
 
-# List your existing remotes in order to get the name of the remote you want to change.
 # Step: 04
+# List your existing remotes in order to get the name of the remote you want to change.
 echo 4. Done...checking remote origin.
+echo
 git remote -v
 
 # Step: 05
 # Change your remote's URL from SSH to HTTPS with the git remote set-url command.
+echo
 echo 5. Done...setting remote url.
 git remote set-url origin https://github.com/Sakib-Rahman-Bangladesh/3-operating-system
 
 # Step: 06
 # Verify that the remote URL has changed.
+echo
 echo 6. Done...Verifying remote URL.
 git remote -v
 
-
-#git remote add origin https://github.com/Sakib-Rahman-Bangladesh/3-operating-system
-# git remote -v
-
-
+echo
 git push origin master
 git push --all -f https://github.com/Sakib-Rahman-Bangladesh/3-operating-system
+
 
 #git pull https://github.com/githubBangladesh/operating-system
