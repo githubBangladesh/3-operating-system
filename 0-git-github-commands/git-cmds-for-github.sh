@@ -11,6 +11,7 @@ git add .
 
 # Step: 03
 echo 3. Done...Committing a modified version of a file to the repo.
+echo 
 git commit -m "Updating Project : v3.1--14-05-2017"
 
 git config --global user.email "sakib.rahman.0000@gmail.com"
