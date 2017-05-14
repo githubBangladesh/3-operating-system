@@ -2,6 +2,7 @@
 ###############################
 
 # Step: 01
+echo 
 echo 1. Done...Initializing a new Git repo for this project.
 git init
 
