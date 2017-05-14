@@ -7,6 +7,7 @@ echo 1. Done...Initializing a new Git repo for this project.
 git init
 
 # Step: 02
+echo
 echo 2. Done...Saving changes to the repository.
 git add .
 
