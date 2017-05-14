@@ -8,6 +8,7 @@
 
 echo 
 echo 01. Done...Initializing a new Git repo for this project.
+echo
 git init
 
 
@@ -33,6 +34,7 @@ git commit -m "Updating Project : v3.1--14-05-2017"
 # Step: 04 #
 ############
 
+echo
 echo 04. Done...Committing a modified version of a file to the repo.
 echo
 git config --global user.email "sakib.rahman.0000@gmail.com"
