@@ -74,7 +74,8 @@ git remote -v
 # Step: 08 #
 ############
 
-echo 08. Pushing local codebase to remote repo
+echo
+echo 08. Pushing local codebase to remote repo.
 echo
 git push origin master
 git push --all -f https://github.com/Sakib-Rahman-Bangladesh/3-operating-system
