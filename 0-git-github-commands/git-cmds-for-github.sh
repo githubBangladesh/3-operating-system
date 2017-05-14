@@ -36,7 +36,6 @@ git commit -m "Updating Project : v3.1--14-05-2017"
 
 echo
 echo 04. Done...Committing a modified version of a file to the repo.
-echo
 git config --global user.email "sakib.rahman.0000@gmail.com"
 git config --global user.name "Sakib Rahman"
 
