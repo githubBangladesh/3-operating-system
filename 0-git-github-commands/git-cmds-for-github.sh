@@ -21,6 +21,7 @@ git config --global user.name "Sakib Rahman"
 
 # Step: 04
 # List your existing remotes in order to get the name of the remote you want to change.
+echo
 echo 4. Done...checking remote origin.
 echo
 git remote -v
@@ -33,8 +34,8 @@ git remote set-url origin https://github.com/Sakib-Rahman-Bangladesh/3-operating
 
 # Step: 06
 # Verify that the remote URL has changed.
-echo
 echo 6. Done...Verifying remote URL.
+echo
 git remote -v
 
 echo
