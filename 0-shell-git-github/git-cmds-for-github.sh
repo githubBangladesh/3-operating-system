@@ -6,38 +6,38 @@
 # Step: 01 #
 ############
 
-echo 
-echo 01. Done...Initializing a new Git repo for this project.
 echo
-git init
+echo 01. Done...Initializing who am I.
+git config --global user.email "sakib.rahman.0000@gmail.com"
+git config --global user.name "Sakib Rahman"
 
 
 ############
 # Step: 02 #
 ############
 
+echo 
+echo 02. Done...Initializing a new Git repo for this project.
 echo
-echo 02. Done...Saving changes to the repository.
-git add .
+git init
 
 
 ############
 # Step: 03 #
 ############
 
-echo 03. Done...Committing a modified version of a file to the repo.
-echo 
-git commit -m "Updating Project : v3.1--14-05-2017"
+echo
+echo 03. Done...Saving changes to the repository.
+git add .
 
 
 ############
 # Step: 04 #
 ############
 
-echo
-echo 04. Done...Initializing who am I.
-git config --global user.email "sakib.rahman.0000@gmail.com"
-git config --global user.name "Sakib Rahman"
+echo 04. Done...Committing a modified version of a file to the repo.
+echo 
+git commit -m "Updating Project - Floder Name : v3.2--15-05-2017"
 
 
 ############
