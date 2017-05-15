@@ -15,8 +15,7 @@ git config --global user.name "Sakib Rahman"
 ############
 # Step: 02 #
 ############
-
-echo 
+ 
 echo 02. Done...Initializing a new Git repo for this project.
 echo
 git init
@@ -45,6 +44,7 @@ git commit -m "Updating Project - Floder Name : v3.2--15-05-2017"
 ############
 
 # List your existing remotes in order to get the name of the remote you want to change.
+echo
 echo 05. Done...checking remote origin.
 echo
 git remote -v
