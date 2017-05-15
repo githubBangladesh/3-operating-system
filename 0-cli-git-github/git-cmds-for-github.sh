@@ -36,7 +36,7 @@ git add .
 
 echo 04. Done...Committing a modified version of a file to the repo.
 echo 
-git commit -m "Updating Project - Floder Name : v3.2--15-05-2017"
+git commit -m "Updating Project - Floder Name : v3.3--15-05-2017"
 
 
 ############
